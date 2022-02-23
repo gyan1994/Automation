@@ -9,8 +9,5 @@ public class First {
     @Given("^Test giving$")
     public void test_giving() {
         System.out.println("Hello Cucumber");
-
-        WebDriver driver= new ChromeDriver();
-        driver.get("https://www.google.com");
     }
 }
