@@ -1,8 +1,6 @@
 package com.first;
 
 import cucumber.api.java.en.Given;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 
 public class First {
 
