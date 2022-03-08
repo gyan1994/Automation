@@ -8,5 +8,4 @@ import org.junit.runner.RunWith;
 @CucumberOptions(features = "src/test/resources/feature",
 glue = "com/second")
 public class Runner {
-  System.out.println(System.getProperty("Branch"));
 }
