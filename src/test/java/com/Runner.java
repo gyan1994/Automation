@@ -6,6 +6,6 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(features = "src/test/resources/feature",
-glue = "com/second")
+glue = "com/first")
 public class Runner {
 }
